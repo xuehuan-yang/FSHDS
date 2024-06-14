@@ -81,6 +81,7 @@ rm -rf pbc-0.5.14.tar.gz
 
 ```
 
+```bash
 # Algorand's implementation of pixel consensus signature
 git clone git@github.com:algorand/pixel.git
 
@@ -98,3 +99,5 @@ pip install hkdf
 import shutil
 import os
 shutil.copy2(file1, file2)
+
+```
