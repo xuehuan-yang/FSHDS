@@ -80,24 +80,3 @@ rm -rf gmp-6.2.1.tar.zst
 rm -rf pbc-0.5.14.tar.gz
 
 ```
-
-```bash
-# Algorand's implementation of pixel consensus signature
-git clone git@github.com:algorand/pixel.git
-
-# Forward Secure MultiSignature Scheme for Ethereum Blockchain
-git clone git@github.com:a2zazeem/ForwardSecureMultisignatureScheme-Python.git
-
-# Algorand's reference implementation of bls signature scheme
-git clone git@github.com:algorand/bls_sigs_ref.git
-
-# BLS signatures in C++, using the blst library for BLS12-381
-git clone https://github.com/Chia-Network/bls-signatures.git
-
-pip install hkdf
-
-import shutil
-import os
-shutil.copy2(file1, file2)
-
-```
