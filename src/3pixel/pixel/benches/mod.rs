@@ -1,2 +1,0 @@
-
-mod  pixel_bench;
